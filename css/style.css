@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/GothamMedium.eot');
+    src: url('../fonts/GothamMedium.eot') format('embedded-opentype'),
+    url('../fonts/GothamMedium.woff2') format('woff2'),
+    url('../fonts/GothamMedium.woff') format('woff'),
+    url('../fonts/GothamMedium.ttf') format('truetype'),
+    url('../fonts/GothamMedium.svg#GothamMedium') format('svg');
+}
+
+* {
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+
+    font-family: 'GothamMedium';
+    -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {outline:none;
+    text-decoration:none;
+    font-size:11px;
+    color:#2d2a2b ;
+}
+img {border:none;}
+html {
+    height: 100%;
+
+}
+p{
+
+}
+.backfon{
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+}
+
+.companyname{
+    position: relative;
+    top: 36px;
+    left: 200px;
+}
+.menulinkfooter a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #767776;
+}
+.menulinkfooter li {
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    left: 160px;
+    margin-left: 35px;
+}
+.menulinkfooterunder p{
+    font-size: 16px;
+    text-decoration: none;
+    color: #4f524f;
+}
+.menulinkfooterunder li {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    left: 160px;
+    margin-left: 30px;
+}
+.menulink a{
+font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+input::-webkit-input-placeholder { color: #757575; }
+.menulink li {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    left: 690px;
+    margin-left: 35px;
+}
+.search{
+    background-color: black;
+    color: #757575;
+    width: 170px;
+    position: absolute;
+    top: 36px;
+    left: 980px;
+    padding: 5px;
+    border: black;
+}
+.halka{
+    position: absolute;
+    top: 45px;
+    coursor: pointer;
+    left: 1130px;
+}
+.serialnumber1{
+    color: white;
+}
+.serialnumber{
+    color: #8d8d8d;
+    position: absolute;
+    left: 985px;
+    top: 3px;
+}
+.headicons1{
+    position: absolute;
+    top: 42px;
+    left: 1200px;
+    cursor: pointer;
+}
+.headicons2{
+    position: absolute;
+    top: 42px;
+    left: 1260px;
+    cursor: pointer;
+}
+.zertahead{
+    width: 125px;
+    height: 1px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    border: solid #05abda 3px;
+    background-color: #05abda;
+}
+.interier{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 500px;
+    margin-bottom: 21px;
+}
+.connecting{
+height: 60px;
+    width: 270px;
+    background-color: #1681b4;
+    padding: 10px;
+    position: absolute;
+    left: 20px;
+    top: 260px;
+}
+.textconnecting{
+    color: white;
+    position: absolute;
+    top: -8px;
+    left: 5px;
+}
+.imgconnected{
+    position: absolute;
+    left: 200px;
+    top: 460px;
+}
+.imgnextconnected{
+    position: absolute;
+    left: 570px;
+    top: 460px;
+    text-transform: uppercase;
+}
+.boxconnected{
+    position: absolute;
+    top: 615px;
+    left: 210px;
+    background-color: #1681b4;
+    height: 50px;
+    width: 160px;
+}
+.textconnected{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    top: -8px;
+    left: 12px;
+}
+.nextnextconnect{
+    position: absolute;
+    top: 460px;
+    left: 930px;
+}
+.nextnextconnecttext{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 530px;
+    left: 950px;
+}
+.lamp{
+    position: absolute;
+    top: 470px;
+    left: 950px;
+}
+.salescut{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+.fukenshid{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.fukintext{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.fukintext1{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.fukintext2{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.boxwhite{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    text-transform: uppercase;
+    color: #1681b4;
+    background-color: white;
+    width: 100px;
+    height: 25px;
+}
+.textboxw{
+position: absolute;
+    top: -5px;
+    left: 5px;
+}
+.meassages2{
+    position: absolute;
+    top: 700px;
+    left: 930px;
+}
+.bluetextbox{
+    position: absolute;
+    top: 800px;
+    left: 595px;
+    background-color: #1681b4;
+    height: 100px;
+    width: 250px;
+    color: white;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 950px;
+}
+.menulanguage a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #4f524f;
+}
+
+.menulanguage li {
+    position: relative;
+    display: inline-block;
+    top: -70px;
+    left: 850px;
+    margin-left: 1px;
+}
+.greytext{
+    color: #4f524f;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    top: -100px;
+    left: 1050px;
+
+}
+.inputradiusemail{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    background-color: red;
+    position: absolute;
+    top: -10px;
+    left: 1300px;
+}
